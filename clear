@@ -1,0 +1,25 @@
+ k-=k*speed;  
+  if(k<2){  
+   clearInterval(clear);  
+   e(o,n,s,speed);  
+  }  
+ }  
+ o.innerHTML = '*';  
+ if(parseInt(o.style.bottom)<n){  
+  var clear = setInterval(m,20); 
+  } 
+ }, 
+ expl:function(o,n,s,speed){ 
+  var R = n/3; 
+  var Ri = n/6; 
+  var r = 0; 
+  var ri = 0; 
+  for(var i=0;i<s;i++){ 
+   var span = document.createElement('span'); 
+   var p = document.createElement('p'); 
+   span.style.position = 'absolute'; 
+   span.style.left = 0; 
+   span.style.top = 0; 
+   span.innerHTML = '*'; 
+   p.style.position = 'absolute'; 
+   p.style.left = 0; 
