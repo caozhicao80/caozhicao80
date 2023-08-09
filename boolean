@@ -1,0 +1,7 @@
+  boolean durable, 
+    boolean transactional, 
+    String jndiCtxFactory, 
+    String connFactory, 
+    String providerURL, 
+    String topicName) 
+  throws Exception 
