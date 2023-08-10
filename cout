@@ -1,0 +1,14 @@
+SetPos(8, 7);
+	cout << "G a m e   O v e r" << endl;
+ 
+	SetPos(3, 10);
+	cout << "0 退出   Enter 重新开始" << endl;
+ 
+	while (1)
+	{
+		int select = _getch();
+		if (select == 13)
+		{
+			system("cls");
+			this->Run();
+		}
