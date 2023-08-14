@@ -1,0 +1,8 @@
+ /** Mainline.
+     * @param args program arguments (not used)
+     */
+    public static void main( String[] args )
+    {
+        try {
+            Configuration config = DatabaseManager.createConfigurationFile( "Sales.ulj" );
+            Connection conn = DatabaseManager.connect( config );
