@@ -1,0 +1,4 @@
+  content.setStatus(ValidationContent.VALID); 
+ 
+    return content; 
+  } 
